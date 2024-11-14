@@ -24,8 +24,7 @@ namespace SortPhoneBook
 
             foreach (var s in sortphoneBook)
                 Console.WriteLine(s.Name + ", " + s.LastName);
-
-            Console.WriteLine();
+                Console.WriteLine();
 
             // Сортировка c помощью методов расширения.
             var sortphoneBookExt = phoneBook
